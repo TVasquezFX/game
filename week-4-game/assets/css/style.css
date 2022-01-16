@@ -1,0 +1,45 @@
+body{
+  background-image: url("../images/blackout.jpg");
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+
+}
+
+.container {
+  background-color: #595959;
+
+}
+
+#name{
+  padding-top: 15px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.bio{
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  background-color: #595959;
+  margin-bottom: 10px;
+  font: 35px;
+  color: black;
+
+}
+
+.click{
+  width:80px;
+  height:80px;
+}
+
+.start {
+  background-color: #595959;
+  color: black;
+  font: 25px;
+  margin-bottom: 50px;
+}
+.addition{
+  font-size: 30px;
+}
+.total{
+  font-size: 50px;
+}

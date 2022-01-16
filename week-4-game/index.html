@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lan='en'>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>BlackouT Crystal Collector</title>
+	<link rel= "stylesheet" type= "text/css" href= "assets/css/reset.css">
+	<link rel= "stylesheet" type= "text/css" href= "assets/css/style.css">
+	<link rel= "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<script src="assets/javascript/game.js"></script>
+	<script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+<body>
+<div class="container">
+		<div class="row">
+            <h1 class="top-header" id="name">BlackouT Crystal Collector</h1><br>
+        </div>     
+        <div class="row">
+            <h3 class="bio">A You random number will appear at bottom of crystals at start of the game. <br>
+            	Each of the four items below, by clicking on an item, will add an unidentified points to your total. <br>
+				The game is won by matching your total to the random number. The game is a loss if your total score goes above the random number. <br>
+				When game resets, the items will have a new value assigned to them.<br>
+				<a href="http://github.com/Rhino0311">Git Repo</a>
+				</h3><br>
+				
+		</div>		
+
+	
+		<div class="row crystals">
+			<div class="col-sm-12">
+			<img src="assets/images/ega.png" class="click" id="ega">
+			<img src="assets/images/bu.png" class="click" id="bu">
+			<img src="assets/images/asu.png" class="click" id="asu">
+			<img src="assets/images/mtg.png" class="click" id="mtg">
+			</div>
+		</div><br>			
+
+			
+	<div class="row start">
+		<div class="col-lg-4">
+		<div class="total"></div>
+		</div>
+			<div class="col-lg-4">	
+			<div class="game-result">
+					<h2>
+					Wins
+					<div id="yourWins"></div>
+					Losses
+					<div id="yourLosses"></div>
+					</h2>
+			</div>
+			</div>
+
+	
+
+	<div class="col-lg-4">
+	<div class="score">
+		<h2>Total score:</h2>
+	</div>
+	<div class="addition"></div>	
+	</div>
+	</div>
+ 
+
+<script src="assets/javascript/game.js"></script>
+	
+	
+</body>
+</html>
